@@ -23,9 +23,9 @@ function Contact() {
                                         <img src={Bitcoin} class="avatar avatar-small" alt="" />
                                     </div>
                                     <div class="content mt-3">
-                                        <h4 class="title font-weight-bold">Phone</h4>
-                                        <p class="text-muted">Start working with Landrick that can provide everything</p>
-                                        <a href="tel:+152534-468-854" class="text-primary">+152 534-468-854</a>
+                                        <h4 class="title font-weight-bold">Whatsapp</h4>
+                                        <p class="text-muted">Official customer service Teraskos</p>
+                                        <a href=" https://api.whatsapp.com/send?phone=6285704368756" class="text-primary">+62 857-0436-8756</a>
                                     </div>
                                 </div>
                             </div>
@@ -39,12 +39,13 @@ function Contact() {
                                     </div>
                                     <div class="content mt-3">
                                         <h4 class="title font-weight-bold">Email</h4>
-                                        <p class="text-muted">Start working with Landrick that can provide everything</p>
-                                        <a href="mailto:contact@example.com" class="text-primary">contact@example.com</a>
+                                        <p class="text-muted">Official email Teraskos</p>
+                                        <a href="mailto:teraskosid@gmail.com" class="text-primary">teraskosid@gmail.com</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
 
                         <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
                             <div class="card contact-detail text-center border-0">
@@ -53,9 +54,9 @@ function Contact() {
                                         <img src={Location} class="avatar avatar-small" alt="" />
                                     </div>
                                     <div class="content mt-3">
-                                        <h4 class="title font-weight-bold">Location</h4>
-                                        <p class="text-muted">C/54 Northwest Freeway, Suite 558, <br />Houston, USA 485</p>
-                                        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" class="video-play-icon h6 text-primary">View on Google map</a>
+                                        <h4 class="title font-weight-bold">Office Address</h4>
+                                        <p class="text-muted">Jl. Walet, G91, Slipi, Komplek Hankam, Palmerah,<br />DKI Jakarta 11480, Indonesia</p>
+                                        <a href="https://goo.gl/maps/rxcinugaU6uudUfWA" class="video-play-icon h6 text-primary">View on Google map</a>
                                     </div>
                                 </div>
                             </div>
