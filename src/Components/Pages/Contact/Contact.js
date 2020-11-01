@@ -40,7 +40,7 @@ function Contact() {
                                     <div class="content mt-3">
                                         <h4 class="title font-weight-bold">Email</h4>
                                         <p class="text-muted">Official email Teraskos</p>
-                                        <a href="mailto:teraskosid@gmail.com" class="text-primary">teraskosid@gmail.com</a>
+                                        <a href="mailto:teraskos.id@gmail.com" class="text-primary">teraskos.id@gmail.com</a>
                                     </div>
                                 </div>
                             </div>
