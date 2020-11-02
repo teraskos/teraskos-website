@@ -13,7 +13,7 @@ function Header() {
                         </a>
                     </div>
                     <div class="buy-button">
-                        <a href="#join" class="btn btn-primary">Join Now</a>
+                        <a href="#join" class="btn btn-primary">Cari Kos</a>
                     </div>
 
                     <div class="menu-extras">

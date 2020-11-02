@@ -46,8 +46,11 @@ function Index() {
                     <div class="row justify-content-center">
                         <div class="col-12 text-center">
                             <div class="section-title mb-4 pb-2">
-                                <h4 class="title mb-4">How It Work ?</h4>
-                                <p class="text-muted para-desc mb-0 mx-auto">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                <h4 class="title mb-4">Visi Kami</h4>
+                                <p class="text-muted para-desc mb-0 mx-auto"><i>
+                                     To become the biggest property management platform in Indonesia
+                                     through standardized product quality with affordable price,
+                                     fast and friendly services by optimizing creative R&D and technology </i></p>
                             </div>
                         </div>
                     </div>
