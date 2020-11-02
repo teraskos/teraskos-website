@@ -9,7 +9,7 @@ function Header() {
                 <div class="container">
                     <div>
                         <a class="logo" href="index.html">
-                            <img src={TeraskosLogo} height="55" alt="" />
+                            <img src={TeraskosLogo} height="72" alt="" />
                         </a>
                     </div>
                     <div class="buy-button">
