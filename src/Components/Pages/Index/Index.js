@@ -95,7 +95,7 @@ function Index() {
                                 <div class="card-body">
                                     <img src={Mobile_notification_SVG} alt="" />
 
-                                    <div class="content mt-4 pt-2">
+                                    {/* <div class="content mt-4 pt-2">
                                         <form>
                                             <div class="row">
                                                 <div class="col-lg-12">
@@ -127,7 +127,7 @@ function Index() {
                                                 </div>
                                             </div>
                                         </form>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
