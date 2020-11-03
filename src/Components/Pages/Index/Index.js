@@ -46,11 +46,11 @@ function Index() {
                     <div class="row justify-content-center">
                         <div class="col-12 text-center">
                             <div class="section-title mb-4 pb-2">
-                                <h4 class="title mb-4">Visi Kami</h4>
-                                <p class="text-muted para-desc mb-0 mx-auto"><i>
-                                     To become the biggest property management platform in Indonesia
-                                     through standardized product quality with affordable price,
-                                     fast and friendly services by optimizing creative R&D and technology </i></p>
+                                <h4 class="title mb-4">Apa Itu Teraskos?</h4>
+                                <p class="text-muted para-desc mb-0 mx-auto">
+                                    Teraskos merupakan platform dimana pengguna dapat melihat, menghubungi, membayar, dan 
+                                    menyelesaikan segala permasalahan kos-kosan yang dialaminya. Selain itu, Teraskos juga membantu para pemilik kos mendapatkan 
+                                    lebih dari 75% <i>occupancy rate </i>keseluruhan kamar kos dan meningkatkan kualitas layanan kos yang dimilikinya.</p>
                             </div>
                         </div>
                     </div>
@@ -79,14 +79,18 @@ function Index() {
                     <div class="row align-items-center">
                         <div class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
                             <div class="section-title">
-                                <h4 class="title mb-4">Speed up your development <br /> with <span class="text-primary">Landrick.</span></h4>
-                                <p class="text-muted">Using Landrick to build your site means never worrying about designing another page or cross browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.</p>
+                                <h4 class="title mb-4">Para Penghuni Kos Menunggu Layanan <br />Kos Anda Hadir di <span class="text-primary">Teraskos</span>!</h4>
+                                <p class="text-muted">Dapatkan peluang yang lebih besar dalam mendekatkan kos-kosan anda ke banyak pelanggan dari seluruh Indonesia bersama Teraskos.
+                                Adapun keuntungan yang akan diperoleh oleh pemilik kos yang bekerjasama dengan Teraskos adalah: </p>
                                 <ul class="list-unstyled text-muted">
-                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Digital Marketing Solutions for Tomorrow</li>
-                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Our Talented & Experienced Marketing Agency</li>
-                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Create your own skin to match your brand</li>
+                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Tidak Repot dalam Mengurus Kos</li>
+                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Occupancy rate up to 100%</li>
+                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Memudahkan Pemilik Kos Melayani Penghuni Kos</li>
+                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Meningkatkan Profit dan Kualitas Layanan Kos</li>
                                 </ul>
-                                <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i class="mdi mdi-chevron-right"></i></a>
+                                <div class="mt-4">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4W4pvH43yohJdXSBFUlKX_M8VEZAUyxOeedf6HkDXtQYv0Q/viewform" class="btn btn-outline-primary mt-2">Gabung Sebagai Mitra Kos</a>
+                                </div>
                             </div>
                         </div>
 
@@ -214,8 +218,13 @@ function Index() {
                             <div class="media">
                                 <i data-feather="help-circle" class="fea icon-ex-md text-primary mr-2 mt-1"></i>
                                 <div class="media-body">
-                                    <h5 class="mt-0">How our <span class="text-primary">Landrick</span> work ?</h5>
-                                    <p class="answer text-muted mb-0">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.</p>
+                                    <h5 class="mt-0">Apa sih layanan <span class="text-primary">Teraskos</span> itu?</h5>
+                                    <p class="answer text-muted mb-0">
+                                        Teraskos adalah layanan penyediaan kos-kosan terstandardisasi dengan tawaran harga yang terjangkau 
+                                        dan fasilitas yang lengkap. Kami yakin, kamu pasti gak akan rugi menggunakan layanan kami ketimbang 
+                                        menggunakan layanan kos lainnya di luar sana. Karena kami berusaha untuk mengerti masalah dan kekhawatiranmu 
+                                        ketika ngekos!
+                                    </p>
                                 </div>
                             </div>
                         </div>

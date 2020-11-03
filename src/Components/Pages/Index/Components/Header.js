@@ -10,14 +10,12 @@ function Header() {
                         <div class="col-lg-7 col-md-7">
                             <div class="title-heading mt-4">
                                 <h1 class="heading mb-3">Temukan Segala Kebutuhan Ngekosmu dengan <span class="text-primary">Mudah </span>dan <span class="text-primary">Murah</span>! </h1>
-                                <p class="para-desc text-muted">
-                                    Teraskos merupakan platform dimana pengguna dapat melihat, menghubungi, membayar, dan 
-                                    menyelesaikan segala permasalahan kos-kosan yang dialaminya. Selain itu, Teraskos juga membantu para pemilik kos mendapatkan 
-                                    lebih dari 75% <i>occupancy rate </i>keseluruhan kamar kos dan meningkatkan kualitas layanan kos yang dimilikinya.
-                                </p>
+                                {/* <p class="para-desc text-muted">
+                                    
+                                </p> */}
                                 <div class="mt-4">
                                     <a href="page-contact-one.html" class="btn btn-primary mt-2 mr-2">Cari Kos</a>
-                                    <a href="documentation.html" class="btn btn-outline-primary mt-2">Gabung Sebagai Mitra Kos</a>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4W4pvH43yohJdXSBFUlKX_M8VEZAUyxOeedf6HkDXtQYv0Q/viewform" class="btn btn-outline-primary mt-2">Gabung Sebagai Mitra Kos</a>
                                 </div>
                             </div>
                         </div>
