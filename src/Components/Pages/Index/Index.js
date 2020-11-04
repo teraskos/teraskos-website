@@ -80,8 +80,8 @@ function Index() {
                         <div class="col-lg-7 col-md-6 order-2 order-md-1 mt-4 mt-sm-0 pt-2 pt-sm-0">
                             <div class="section-title">
                                 <h4 class="title mb-4">Para Penghuni Kos Menunggu Layanan <br />Kos Anda Hadir di <span class="text-primary">Teraskos</span>!</h4>
-                                <p class="text-muted">Dapatkan peluang yang lebih besar dalam mendekatkan kos-kosan anda ke banyak pelanggan dari seluruh Indonesia bersama Teraskos.
-                                Adapun keuntungan yang akan diperoleh oleh pemilik kos yang bekerjasama dengan Teraskos adalah: </p>
+                                <p class="text-muted">Dapatkan peluang yang lebih besar bersama Teraskos dengan mendekatkan kos-kosan anda ke para penghuni kos dari seluruh Indonesia.
+                                                      Adapun keuntungan yang akan anda dapatkan apabila bekerjasama dengan Teraskos adalah: </p>
                                 <ul class="list-unstyled text-muted">
                                     <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Tidak Repot dalam Mengurus Kos</li>
                                     <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Occupancy rate up to 100%</li>
@@ -218,12 +218,11 @@ function Index() {
                             <div class="media">
                                 <i data-feather="help-circle" class="fea icon-ex-md text-primary mr-2 mt-1"></i>
                                 <div class="media-body">
-                                    <h5 class="mt-0">Apa sih layanan <span class="text-primary">Teraskos</span> itu?</h5>
+                                    <h5 class="mt-0"> Apa saja layanan yang diberikan <span class="text-primary">Teraskos</span>?</h5>
                                     <p class="answer text-muted mb-0">
-                                        Teraskos adalah layanan penyediaan kos-kosan terstandardisasi dengan tawaran harga yang terjangkau 
-                                        dan fasilitas yang lengkap. Kami yakin, kamu pasti gak akan rugi menggunakan layanan kami ketimbang 
-                                        menggunakan layanan kos lainnya di luar sana. Karena kami berusaha untuk mengerti masalah dan kekhawatiranmu 
-                                        ketika ngekos!
+                                    Kami memberikan layanan kos-kosan yang terstandardisasi dengan harga terjangkau 
+                                    dan fasilitas yang lengkap. Sehingga, calon penghuni kos tidak akan merasa dirugikan, karena kami berusaha untuk 
+                                    mengerti dan menyelesaikan masalah yang dialami para penghuni kos.
                                     </p>
                                 </div>
                             </div>
@@ -233,8 +232,13 @@ function Index() {
                             <div class="media">
                                 <i data-feather="help-circle" class="fea icon-ex-md text-primary mr-2 mt-1"></i>
                                 <div class="media-body">
-                                    <h5 class="mt-0"> What is the main process open account ?</h5>
-                                    <p class="answer text-muted mb-0">If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact</p>
+                                    <h5 class="mt-0"> Apa fasilitas yang diberikan oleh <span class="text-primary">Teraskos</span>?</h5>
+                                    <p class="answer text-muted mb-0">
+                                        Daftar fasilitas yang kami berikan dapat dilihat di katalog kami atau bisa 
+                                        <a href="https://www.instagram.com/teraskos.info/" class="mt-3 h6 text-primary"> klik disini</a>
+                                        . Dan fasilitas yang kami berikan merupakan hasil dari riset kami 
+                                        untuk memberikan pengalaman yang nyaman dan menyenangkan bagi para penghuni kos.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -243,8 +247,14 @@ function Index() {
                             <div class="media">
                                 <i data-feather="help-circle" class="fea icon-ex-md text-primary mr-2 mt-1"></i>
                                 <div class="media-body">
-                                    <h5 class="mt-0"> How to make unlimited data entry ?</h5>
-                                    <p class="answer text-muted mb-0">Furthermore, it is advantageous when the dummy text is relatively realistic so that the layout impression of the final publication is not compromised.</p>
+                                    <h5 class="mt-0"> Berapa biaya kos yang tergabung dalam <span class="text-primary">Teraskos</span>?</h5>
+                                    <p class="answer text-muted mb-0">
+                                        Untuk biaya kos kami pastikan harganya sudah terjangkau. 
+                                        Sebagai contoh, kami memiliki mitra yang menawarkan harga kos mulai dari 
+                                        Rp.55.000,-/hari, Rp.140.000,-/3 hari, hingga Rp.180.000,-/minggu. Adapun untuk info biaya kos 
+                                        pada mitra lainnya bisa 
+                                        <a href="https://www.instagram.com/teraskos.info/" class="mt-3 h6 text-primary"> klik disini</a>.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -253,8 +263,14 @@ function Index() {
                             <div class="media">
                                 <i data-feather="help-circle" class="fea icon-ex-md text-primary mr-2 mt-1"></i>
                                 <div class="media-body">
-                                    <h5 class="mt-0"> Is <span class="text-primary">Landrick</span> safer to use with my account ?</h5>
-                                    <p class="answer text-muted mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin.</p>
+                                    <h5 class="mt-0">Bagaimana prosedur untuk melakukan pembayaran kos?</h5>
+                                    <p class="answer text-muted mb-0">
+                                    Untuk kos harian dan mingguan dibayarkan di awal transaksi. Adapun kos bulanan, 
+                                    penghuni kos wajib membayar rutin di setiap tanggal 1 s/d 5. Jika pembayaran baru 
+                                    dilakukan pada tanggal 5 s/d 10, maka akan dikenakan denda sebesar 20%. Apabila 
+                                    penghuni kos tidak memberikan kabar hingga melewati tanggal 10, maka kos yang dihuni
+                                    akan dapat disewakan ke orang lain.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -263,9 +279,11 @@ function Index() {
                     <div class="row my-md-5 pt-md-3 my-4 pt-2 pb-lg-5 mt-sm-0 pt-sm-0 justify-content-center">
                         <div class="col-12 text-center">
                             <div class="section-title">
-                                <h4 class="title mb-4">Have Question ? Get in touch!</h4>
-                                <p class="text-muted para-desc mx-auto">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                                <a href="page-contact-two.html" class="btn btn-primary mt-4"><i class="mdi mdi-phone"></i> Contact us</a>
+                                <h4 class="title mb-4">Masih memiliki pertanyaan?</h4>
+                                <p class="text-muted para-desc mx-auto">
+                                    Segera hubungi kami untuk menjawab pertanyaan yang kamu miliki saat ini. Kami akan berusaha untuk menjawabnya.
+                                    </p>
+                                <a href="https://api.whatsapp.com/send?phone=6285704368756" class="btn btn-primary mt-4"><i class="mdi mdi-phone"></i> Contact us</a>
                             </div>
                         </div>
                     </div>
