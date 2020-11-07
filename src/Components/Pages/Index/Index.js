@@ -62,14 +62,19 @@ function Index() {
 
                         <div class="col-lg-7 col-md-6 mt-4 pt-2">
                             <div class="section-title ml-lg-5">
-                                <h4 class="title mb-4">Change the way you build websites</h4>
-                                <p class="text-muted">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                <h4 class="title mb-4">Sedang Mencari Kos-Kosan? <br /> <span class="text-primary">Teraskos</span> Siap Mencarikan untuk Anda!</h4>
+                                <p class="text-muted">
+                                    Teraskos akan membantu Anda untuk mencari dan menikmati layanan kos
+                                    dengan harga yang terjangkau. Selain itu, masih banyak keuntungan yang 
+                                    akan anda dapatkan jika bergabung dengan Teraskos! Berikut beberapa keuntungan lainnya:  </p>
                                 <ul class="list-unstyled text-muted">
-                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Digital Marketing Solutions for Tomorrow</li>
-                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Our Talented & Experienced Marketing Agency</li>
-                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Create your own skin to match your brand</li>
+                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Kualitas yang hampir setara dengan pelayanan hotel</li>
+                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Jaminan ngekos dengan nyaman dan sesuai budget</li>
+                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Membantu menyelesaikan komplain terhadap pemilik kos</li>
                                 </ul>
-                                <a href="javascript:void(0)" class="mt-3 h6 text-primary">Find Out More <i class="mdi mdi-chevron-right"></i></a>
+                                <div class="mt-4">
+                                    <a href="https://api.whatsapp.com/send?phone=6285704368756" class="btn btn-primary mt-2 mr-2">Cari Kos</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -83,10 +88,10 @@ function Index() {
                                 <p class="text-muted">Dapatkan peluang yang lebih besar bersama Teraskos dengan mendekatkan kos-kosan anda ke para penghuni kos dari seluruh Indonesia.
                                                       Adapun keuntungan yang akan anda dapatkan apabila bekerjasama dengan Teraskos adalah: </p>
                                 <ul class="list-unstyled text-muted">
-                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Tidak Repot dalam Mengurus Kos</li>
+                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Tidak repot dalam Mengurus Kos</li>
                                     <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Occupancy rate up to 100%</li>
-                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Memudahkan Pemilik Kos Melayani Penghuni Kos</li>
-                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Meningkatkan Profit dan Kualitas Layanan Kos</li>
+                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Memudahkan pemilik kos melayani penghuni kos</li>
+                                    <li class="mb-0"><span class="text-primary h5 mr-2"><i class="uim uim-check-circle"></i></span>Meningkatkan profit dan kualitas layanan kos</li>
                                 </ul>
                                 <div class="mt-4">
                                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4W4pvH43yohJdXSBFUlKX_M8VEZAUyxOeedf6HkDXtQYv0Q/viewform" class="btn btn-outline-primary mt-2">Gabung Sebagai Mitra Kos</a>
@@ -146,7 +151,7 @@ function Index() {
                         <div class="col-12 text-center">
                             <div class="section-title mb-4 pb-2">
                                 <h6>We believe in building each other and hence</h6>
-                                <h4 class="title mb-4">Work with some amazing partners</h4>
+                                <h4 class="title mb-4">Testimoni Pengguna Teraskos</h4>
                                 <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary font-weight-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
                             </div>
                         </div>
@@ -157,9 +162,9 @@ function Index() {
                             <div id="customer-testi" class="owl-carousel owl-theme">
                                 <div class="card customer-testi text-center border rounded mx-2">
                                     <div class="card-body">
-                                        <img src={Amazon} class="img-fluid avatar avatar-ex-sm mx-auto" alt="" />
-                                        <p class="text-muted mt-4">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
-                                        <h6 class="text-primary">- Thomas Israel</h6>
+                                        {/* <img src={Amazon} class="img-fluid avatar avatar-ex-sm mx-auto" alt="" /> */}
+                                        <p class="text-muted mt-4">" Puas dengan fasilitasnya, harganya juga murah, serta tempatnya bersih. Cocok buat anak muda. "</p>
+                                        <h6 class="text-primary">- Januarti Pratiwi</h6>
                                     </div>
                                 </div>
                                 <div class="card customer-testi text-center border rounded mx-2">
@@ -283,7 +288,7 @@ function Index() {
                                 <p class="text-muted para-desc mx-auto">
                                     Segera hubungi kami untuk menjawab pertanyaan yang kamu miliki saat ini. Kami akan berusaha untuk menjawabnya.
                                     </p>
-                                <a href="https://api.whatsapp.com/send?phone=6285704368756" class="btn btn-primary mt-4"><i class="mdi mdi-phone"></i> Contact us</a>
+                                <a href="https://api.whatsapp.com/send?phone=6285704368756" class="btn btn-primary mt-4">{/* <i class="mdi mdi-phone"></i>  */}Hubungi Kami</a>
                             </div>
                         </div>
                     </div>
