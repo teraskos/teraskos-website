@@ -1,30 +1,32 @@
-import React, { Fragment, useEffect } from 'react'
-import LogoLight from './../../../Assets/Images/logo-light.png';
-import AmericanEx from './../../../Assets/Images/payments/american-ex.png';
-import Discover from './../../../Assets/Images/payments/discover.png'
-import MasterCard from './../../../Assets/Images/payments/master-card.png';
-import Paypal2 from './../../../Assets/Images/payments/paypal.png';
-import Visa from './../../../Assets/Images/payments/visa.png';
+import React, { Fragment, useEffect } from "react";
+import LogoLight from "./../../../Assets/Images/logo-light.png";
+import AmericanEx from "./../../../Assets/Images/payments/american-ex.png";
+import Discover from "./../../../Assets/Images/payments/discover.png";
+import MasterCard from "./../../../Assets/Images/payments/master-card.png";
+import Paypal2 from "./../../../Assets/Images/payments/paypal.png";
+import Visa from "./../../../Assets/Images/payments/visa.png";
 
 function Footer() {
     useEffect(() => {
         window.$(window).scroll(function () {
             if (window.$(this).scrollTop() > 100) {
-                window.$('.back-to-top').fadeIn();
+                window.$(".back-to-top").fadeIn();
             } else {
-                window.$('.back-to-top').fadeOut();
+                window.$(".back-to-top").fadeOut();
             }
         });
-        
-        window.$('.back-to-top').click(function () {
+
+        window.$(".back-to-top").click(function () {
             window.$("html, body").animate({ scrollTop: 0 }, 3000);
             return false;
         });
-    }, [])
+    }, []);
 
     return (
         <Fragment>
-            <a href="#" class="btn btn-icon btn-soft-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+            <a href="#" class="btn btn-icon btn-soft-primary back-to-top">
+                <i data-feather="arrow-up" class="icons"></i>
+            </a>
 
             {/* <footer class="footer">
                 <div class="container">
@@ -93,24 +95,80 @@ function Footer() {
                     <div class="row align-items-center">
                         <div class="col-sm-6">
                             <div class="text-sm-left">
-                                <p class="mb-0">© 2020 Teraskos. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="http://www.shreethemes.in/" target="_blank" class="text-reset">Terask</a>.</p>
+                                <p class="mb-0">
+                                    © 2020 Teraskos. Design with{" "}
+                                    <i class="mdi mdi-heart text-danger"></i> by{" "}
+                                    <a
+                                        href="http://www.shreethemes.in/"
+                                        target="_blank"
+                                        class="text-reset"
+                                    >
+                                        Terask
+                                    </a>
+                                    .
+                                </p>
                             </div>
                         </div>
 
                         <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
                             <ul class="list-unstyled text-sm-right mb-0">
-                                <li class="list-inline-item"><a href="javascript:void(0)"><img src={AmericanEx} class="avatar avatar-ex-sm" title="American Express" alt="" /></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)"><img src={Discover} class="avatar avatar-ex-sm" title="Discover" alt="" /></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)"><img src={MasterCard} class="avatar avatar-ex-sm" title="Master Card" alt="" /></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)"><img src={Paypal2} class="avatar avatar-ex-sm" title="Paypal" alt="" /></a></li>
-                                <li class="list-inline-item"><a href="javascript:void(0)"><img src={Visa} class="avatar avatar-ex-sm" title="Visa" alt="" /></a></li>
+                                <li class="list-inline-item">
+                                    <a href="javascript:void(0)">
+                                        <img
+                                            src={AmericanEx}
+                                            class="avatar avatar-ex-sm"
+                                            title="American Express"
+                                            alt=""
+                                        />
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="javascript:void(0)">
+                                        <img
+                                            src={Discover}
+                                            class="avatar avatar-ex-sm"
+                                            title="Discover"
+                                            alt=""
+                                        />
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="javascript:void(0)">
+                                        <img
+                                            src={MasterCard}
+                                            class="avatar avatar-ex-sm"
+                                            title="Master Card"
+                                            alt=""
+                                        />
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="javascript:void(0)">
+                                        <img
+                                            src={Paypal2}
+                                            class="avatar avatar-ex-sm"
+                                            title="Paypal"
+                                            alt=""
+                                        />
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="javascript:void(0)">
+                                        <img
+                                            src={Visa}
+                                            class="avatar avatar-ex-sm"
+                                            title="Visa"
+                                            alt=""
+                                        />
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </footer>
         </Fragment>
-    )
+    );
 }
 
 export default Footer;

@@ -1,12 +1,12 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from "react";
 // import ImageHeader from './../../../../Assets/Images/illustrator/Startup_SVG.svg';
-import logo from '../../../../logo.svg';
-import './style.scss';
+import logo from "../../../../logo.svg";
+import "./style.scss";
 
 function Header() {
-  return (
-    <Fragment>
-      {/* <section class="bg-half-170  d-table w-100" id="home">
+    return (
+        <Fragment>
+            {/* <section class="bg-half-170  d-table w-100" id="home">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-7 col-md-7">
@@ -28,18 +28,21 @@ function Header() {
                     </div>
                 </div>
             </section> */}
-      {/* Belum responsive */}
-      <header
-        class='header-bg bg-half-170 d-table w-100 align-items-center justify-content-center'
-        id='home'
-      >
-        <div class='title text-center text-white'>
-          <img src={logo} alt='Logo Teraskos' />
-          <h1>Temukan Segala Kebutuhan Ngekosmu dengan Mudah dan Murah!</h1>
-        </div>
-      </header>
-    </Fragment>
-  );
+            {/* Belum responsive */}
+            <header
+                class="header-bg bg-half-170 d-table w-100 align-items-center justify-content-center"
+                id="home"
+            >
+                <div class="title text-center text-white">
+                    <img src={logo} alt="Logo Teraskos" />
+                    <h1>
+                        Temukan Segala Kebutuhan Ngekosmu dengan Mudah dan
+                        Murah!
+                    </h1>
+                </div>
+            </header>
+        </Fragment>
+    );
 }
 
 export default Header;

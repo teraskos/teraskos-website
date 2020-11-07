@@ -8,10 +8,10 @@
         position: relative;
         font-size: 13px;
     }
-} 
+}
 
 .cover-user {
-    .container-fluid{
+    .container-fluid {
         max-width: 100%;
         .padding-less.img {
             background: scroll center no-repeat;
@@ -19,12 +19,11 @@
             position: absolute;
             height: 100%;
         }
-    }    
+    }
     .cover-user-img {
         height: 100vh;
     }
 }
-
 
 //account-profile.html(Pages > Account)
 .bg-profile {
@@ -55,9 +54,9 @@
 
 @media (min-width: 1025px) {
     .cover-user {
-        .cover-user-img{
+        .cover-user-img {
             padding: 0px 20%;
-        }  
+        }
     }
 }
 
@@ -69,7 +68,7 @@
         }
         .cover-user-content {
             text-align: left !important;
-        }    
+        }
         .cover-user-img {
             align-items: start !important;
             height: auto !important;

@@ -25,14 +25,17 @@
 }
 
 //Buttons
-@each $name,
-$value in $colors {
+@each $name, $value in $colors {
     .btn-#{$name} {
         background-color: #{$value} !important;
         border: 1px solid #{$value} !important;
         color: $white !important;
         box-shadow: 0 3px 5px 0 rgba($value, 0.3);
-        &:hover, &:focus, &:active, &.active, &.focus{
+        &:hover,
+        &:focus,
+        &:active,
+        &.active,
+        &.focus {
             background-color: darken($value, 10%) !important;
             border-color: darken($value, 10%) !important;
             color: $white !important;
@@ -44,7 +47,11 @@ $value in $colors {
         border: 1px solid rgba($value, 0.2) !important;
         color: #{$value} !important;
         box-shadow: 0 3px 5px 0 rgba($value, 0.3);
-        &:hover, &:focus, &:active, &.active, &.focus{
+        &:hover,
+        &:focus,
+        &:active,
+        &.active,
+        &.focus {
             background-color: #{$value} !important;
             border-color: #{$value} !important;
             color: $white !important;
@@ -54,8 +61,13 @@ $value in $colors {
     .btn-outline-#{$name} {
         border: 1px solid #{$value};
         color: #{$value};
-        background-color: transparent;    
-        &:hover, &:focus, &:active, &.active, &.focus, &:not(:disabled):not(.disabled):active{
+        background-color: transparent;
+        &:hover,
+        &:focus,
+        &:active,
+        &.active,
+        &.focus,
+        &:not(:disabled):not(.disabled):active {
             background-color: #{$value};
             border-color: #{$value};
             color: $white !important;
@@ -82,7 +94,7 @@ $value in $colors {
     &.btn-lg {
         padding: 14px 30px;
         font-size: 16px;
-    } 
+    }
     &.searchbtn {
         padding: 6px 20px;
     }
@@ -92,26 +104,38 @@ $value in $colors {
     &.btn-light {
         color: $dark !important;
         border: 1px solid $gray-300 !important;
-        &:hover, &:focus, &:active, &.active, &.focus{
+        &:hover,
+        &:focus,
+        &:active,
+        &.active,
+        &.focus {
             background-color: darken($light, 10%) !important;
-            color: $dark !important; 
+            color: $dark !important;
         }
-    }  
+    }
     &.btn-soft-light {
         color: rgba($dark, 0.5) !important;
         border: 1px solid $gray-300 !important;
-        &:hover, &:focus, &:active, &.active, &.focus{
-            color: $dark !important; 
+        &:hover,
+        &:focus,
+        &:active,
+        &.active,
+        &.focus {
+            color: $dark !important;
         }
-    }    
+    }
     &.btn-outline-light {
         border: 1px solid $gray-300 !important;
         color: $dark !important;
-        background-color: transparent;    
-        &:hover, &:focus, &:active, &.active, &.focus{
+        background-color: transparent;
+        &:hover,
+        &:focus,
+        &:active,
+        &.active,
+        &.focus {
             background-color: $light !important;
         }
-    }    
+    }
     &.btn-icon {
         height: 36px;
         width: 36px;
@@ -144,7 +168,7 @@ button:not(:disabled) {
     outline: none;
 }
 
-//Shadow 
+//Shadow
 .shadow {
     box-shadow: $shadow !important;
 }
@@ -156,8 +180,7 @@ button:not(:disabled) {
 }
 
 //Badges
-@each $name,
-$value in $colors {
+@each $name, $value in $colors {
     .badge-#{$name} {
         background-color: #{$value} !important;
         color: $white !important;
@@ -186,14 +209,14 @@ $value in $colors {
     &.badge-pill {
         border-radius: 12px;
     }
-    &:focus, &.focus {
+    &:focus,
+    &.focus {
         box-shadow: none !important;
     }
 }
 
 //Dropdowns
-@each $name,
-$value in $colors {
+@each $name, $value in $colors {
     .dropdown-#{$name} {
         .dropdown-menu {
             .dropdown-item {
@@ -248,8 +271,7 @@ $value in $colors {
 }
 
 //Alert
-@each $name,
-$value in $colors {
+@each $name, $value in $colors {
     .alert-#{$name} {
         background-color: rgba($value, 0.9);
         color: $white;
@@ -291,7 +313,7 @@ $value in $colors {
 }
 
 //Breadcrumb
-.page-next-level{
+.page-next-level {
     .title {
         font-size: 28px;
         letter-spacing: 1px;
@@ -328,15 +350,15 @@ $value in $colors {
         &:after {
             content: "\F0142" !important;
             font-size: 14px;
-            color: $dark; 
-            font-family: 'Material Design Icons';
+            color: $dark;
+            font-family: "Material Design Icons";
             padding-left: 5px;
-        }     
+        }
         &:last-child {
             &:after {
                 display: none;
             }
-        } 
+        }
     }
 }
 
@@ -346,7 +368,7 @@ $value in $colors {
         &:first-child .page-link {
             border-top-left-radius: 30px;
             border-bottom-left-radius: 30px;
-        } 
+        }
         &:last-child .page-link {
             border-top-right-radius: 30px;
             border-bottom-right-radius: 30px;
@@ -416,19 +438,19 @@ $value in $colors {
 
 .faq-content {
     .card {
-        .faq {           
+        .faq {
             .card-header {
                 padding-right: 40px !important;
             }
-        }  
-        a.faq[data-toggle=collapse]{
+        }
+        a.faq[data-toggle="collapse"] {
             background-color: $white;
             color: $primary;
             transition: all 0.5s;
             &:before {
-                content: '\F0143';
+                content: "\F0143";
                 display: block;
-                font-family: 'Material Design Icons';
+                font-family: "Material Design Icons";
                 font-size: 18px;
                 color: $dark;
                 position: absolute;
@@ -524,14 +546,15 @@ $value in $colors {
         background-color: $white;
         border: 1px solid $gray-300;
         color: $dark;
-        height: 42px; 
+        height: 42px;
         font-size: 13px;
         border-radius: 6px;
         transition: all 0.5s ease;
-        &:focus, &.active {
+        &:focus,
+        &.active {
             border-color: $primary;
         }
-    } 
+    }
     textarea {
         height: 120px !important;
         &.form-control {
@@ -539,19 +562,20 @@ $value in $colors {
         }
     }
 }
-.form-control:disabled, .form-control[readonly] {
+.form-control:disabled,
+.form-control[readonly] {
     background-color: transparent;
     opacity: 1;
 }
 //Checkbox / Radio button
-.custom-control-input:checked~.custom-control-label {
+.custom-control-input:checked ~ .custom-control-label {
     &:before {
         color: $white;
         border-color: $primary;
         background-color: $primary;
     }
 }
-.custom-control-input:focus~.custom-control-label::before,
+.custom-control-input:focus ~ .custom-control-label::before,
 .form-control:focus {
     box-shadow: none;
     border-color: $primary;
@@ -600,7 +624,7 @@ $value in $colors {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;    
+    -webkit-overflow-scrolling: touch;
     .table {
         td,
         th {
@@ -620,7 +644,7 @@ $value in $colors {
             }
         }
         &.invoice-tb {
-            th, 
+            th,
             td {
                 text-align: end;
             }
@@ -652,7 +676,8 @@ $value in $colors {
             height: 40px;
             position: relative;
             margin: 100px auto;
-            .double-bounce1, .double-bounce2 {
+            .double-bounce1,
+            .double-bounce2 {
                 width: 100%;
                 height: 100%;
                 border-radius: 50%;
@@ -661,20 +686,22 @@ $value in $colors {
                 position: absolute;
                 top: 0;
                 left: 0;
-                animation: sk-bounce 2.0s infinite ease-in-out;
+                animation: sk-bounce 2s infinite ease-in-out;
             }
             .double-bounce2 {
-                animation-delay: -1.0s;
+                animation-delay: -1s;
             }
         }
     }
 }
 
 @keyframes sk-bounce {
-    0%, 100% { 
-      transform: scale(0.0);
-    } 50% { 
-      transform: scale(1.0);
+    0%,
+    100% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
     }
 }
 
@@ -716,7 +743,7 @@ $value in $colors {
 }
 //back to top
 .back-to-top {
-    z-index: 99; 
+    z-index: 99;
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -790,7 +817,7 @@ $value in $colors {
     font-size: 56px !important;
 }
 
-[class^=uil-], 
+[class^="uil-"],
 [class*=" uil-"] {
     &:before {
         margin: 0;
@@ -806,7 +833,7 @@ $value in $colors {
         .page-next {
             top: 70px;
         }
-    } 
+    }
     .display-1 {
         font-size: 56px !important;
     }
