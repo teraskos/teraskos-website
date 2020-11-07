@@ -97,13 +97,14 @@ function Index() {
                                         Membantu menyelesaikan komplain terhadap pemilik kos
                                     </li>
                                 </ul>
-                                <a
-                                    href="javascript:void(0)"
-                                    class="mt-3 h6 text-primary"
-                                >
-                                    Find Out More{" "}
-                                    <i class="mdi mdi-chevron-right"></i>
-                                </a>
+                                <div class="mt-4">
+                                    <a
+                                        href="https://api.whatsapp.com/send?phone=6285704368756"
+                                        class="btn btn-primary mt-2 mr-2"
+                                    >
+                                        Cari Kos
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -505,7 +506,7 @@ function Index() {
                                     href="https://api.whatsapp.com/send?phone=6285704368756"
                                     class="btn btn-primary mt-4"
                                 >
-                                    <i class="mdi mdi-phone"></i> Contact us
+                                    <i class="mdi mdi-phone"></i> Hubungi Kami
                                 </a>
                             </div>
                         </div>
