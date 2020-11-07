@@ -108,19 +108,16 @@ function Contact() {
                                     </div>
                                     <div class="content mt-3">
                                         <h4 class="title font-weight-bold">
-                                            Office Address
+                                            LINE
                                         </h4>
                                         <p class="text-muted">
-                                            Jl. Walet, G91, Slipi, Komplek
-                                            Hankam, Palmerah,
-                                            <br />
-                                            DKI Jakarta 11480, Indonesia
+                                            Official LINE Teraskos
                                         </p>
                                         <a
-                                            href="https://goo.gl/maps/rxcinugaU6uudUfWA"
+                                            href="http://line.me/ti/p/~@160aaewu"
                                             class="video-play-icon h6 text-primary"
                                         >
-                                            View on Google map
+                                            @160aaewu
                                         </a>
                                     </div>
                                 </div>
