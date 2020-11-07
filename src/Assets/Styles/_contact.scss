@@ -14,7 +14,7 @@
         position: absolute;
         top: 43px;
         left: 18px;
-    } 
+    }
 }
 
 .map {
@@ -30,7 +30,7 @@
     display: none;
     color: $danger;
 }
-  
+
 #ajaxsuccess {
     font-size: 16px;
     width: 100%;
@@ -52,7 +52,7 @@
 .contact-loader {
     display: none;
 }
-  
+
 #success_page {
     text-align: center;
     margin-bottom: 50px;
@@ -62,9 +62,9 @@
     }
 }
 
-//Flatpicker 
+//Flatpicker
 .flatpickr-day {
-    &.selected,  
+    &.selected,
     &.selected:hover {
         background: $primary;
         border-color: $primary;

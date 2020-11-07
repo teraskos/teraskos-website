@@ -15,7 +15,9 @@
     background-color: $bg-overlay-white;
 }
 .text-shadow-title {
-    text-shadow: 2px 0 0 $dark, -2px 0 0 $dark, 0 4px 0 rgba($dark, 0.4), 0 -2px 0 $dark, 1px 1px $dark, -1px -1px 0 $dark, 1px -1px 0 $dark, -1px 1px 0 $dark;
+    text-shadow: 2px 0 0 $dark, -2px 0 0 $dark, 0 4px 0 rgba($dark, 0.4),
+        0 -2px 0 $dark, 1px 1px $dark, -1px -1px 0 $dark, 1px -1px 0 $dark,
+        -1px 1px 0 $dark;
 }
 
 //Title

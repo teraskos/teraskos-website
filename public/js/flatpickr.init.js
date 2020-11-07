@@ -4,9 +4,9 @@ var tomorrow = new Date();
 tomorrow.setDate(today.getDate() + 1);
 
 $("#checkin-date").flatpickr({
-    defaultDate:today
+    defaultDate: today
 });
 
 $("#checkout-date").flatpickr({
-    defaultDate:tomorrow
+    defaultDate: tomorrow
 });

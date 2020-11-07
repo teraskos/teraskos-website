@@ -1,7 +1,6 @@
-import React, { Fragment, useEffect } from 'react'
+import React, { Fragment, useEffect } from "react";
 
 function Loader() {
-
     return (
         <Fragment>
             <div id="preloader">
@@ -13,7 +12,7 @@ function Loader() {
                 </div>
             </div>
         </Fragment>
-    )
+    );
 }
 
-export default Loader
+export default Loader;

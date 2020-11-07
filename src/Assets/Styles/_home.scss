@@ -9,15 +9,15 @@
     background-position: center center;
 }
 .bg-home {
-    height: 100vh;    
+    height: 100vh;
     @include home-common();
 }
 .bg-half-260 {
-    padding: 260px 0;    
+    padding: 260px 0;
     @include home-common();
 }
 .bg-half-170 {
-    padding: 170px 0;    
+    padding: 170px 0;
     @include home-common();
 }
 .bg-half {
@@ -26,19 +26,22 @@
 }
 
 //Gradient Home
-.gradient{
+.gradient {
     background: $primary !important;
     background: linear-gradient(45deg, $primary, $primary) !important;
     opacity: 0.9;
 }
 
 .bg-circle-gradiant {
-    background: radial-gradient(circle at 50% 50%, rgba($primary, 0.1) 0%, 
-                                                   rgba($primary, 0.1) 33.333%,
-                                                   rgba($primary, 0.3) 33.333%, 
-                                                   rgba($primary, 0.3) 66.666%,
-                                                   rgba($primary, 0.5) 66.666%, 
-                                                   rgba($primary, 0.5) 99.999%);
+    background: radial-gradient(
+        circle at 50% 50%,
+        rgba($primary, 0.1) 0%,
+        rgba($primary, 0.1) 33.333%,
+        rgba($primary, 0.3) 33.333%,
+        rgba($primary, 0.3) 66.666%,
+        rgba($primary, 0.5) 66.666%,
+        rgba($primary, 0.5) 99.999%
+    );
 }
 
 //Saas
@@ -110,20 +113,20 @@
 }
 
 //Hotel Landing
-.main-slider{
+.main-slider {
     .slides {
         .bg-slider {
             background-size: cover;
             height: 100vh;
             position: relative;
-            @include home-common(); 
+            @include home-common();
             &.shopping {
                 height: 75vh;
             }
         }
     }
-}        
-.flex-control-paging li a{
+}
+.flex-control-paging li a {
     background: $white;
     box-shadow: none;
     &.flex-active {
@@ -157,14 +160,14 @@
     &.crypto-home {
         &:after {
             background: $primary;
-            width:80%;
+            width: 80%;
             clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
         }
     }
     &.task-management-home {
         &:after {
             background: url("../Images/task/bg.png") $primary;
-            width:100%;
+            width: 100%;
             clip-path: circle(65% at 40% 25%);
         }
     }
@@ -196,7 +199,7 @@
     }
 }
 
-.classic-app-image .bg-app-shape, 
+.classic-app-image .bg-app-shape,
 .classic-saas-image .bg-saas-shape {
     &:after {
         content: " ";
@@ -204,7 +207,7 @@
         z-index: -1;
     }
 }
-.classic-app-image .bg-app-shape, 
+.classic-app-image .bg-app-shape,
 .classic-saas-image .bg-saas-shape {
     &:after {
         box-shadow: 0 0 40px rgba($primary, 0.5);
@@ -234,7 +237,7 @@
         width: 100%;
         height: 100%;
     }
-    .swiper-container {        
+    .swiper-container {
         .swiper-button-prev,
         .swiper-button-next {
             background: transparent;
@@ -272,23 +275,23 @@
     .swiper-pagination-bullet-active {
         color: $white;
     }
-    .swiper-container-horizontal 
-    > .swiper-pagination-bullets,
-    .swiper-pagination-custom, 
+    .swiper-container-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-custom,
     .swiper-pagination-fraction {
         bottom: 45px;
-    } 
-    .swiper-container-horizontal 
-    > .swiper-pagination-bullets .swiper-pagination-bullet {
+    }
+    .swiper-container-horizontal
+        > .swiper-pagination-bullets
+        .swiper-pagination-bullet {
         margin: 0 13px;
     }
 }
 
-// Responsive 
-@media (min-width: 769px){    
-    //studio 
+// Responsive
+@media (min-width: 769px) {
+    //studio
     .bg-studio {
-        &:after{
+        &:after {
             content: "";
             position: absolute;
             right: 0px;
@@ -301,7 +304,7 @@
     }
 }
 //Index-onepage.html
-@media (min-width:768px) {
+@media (min-width: 768px) {
     .home-dashboard {
         &.onepage-hero {
             overflow: hidden;
@@ -317,7 +320,8 @@
     .bg-half {
         padding: 169px 0 50px;
     }
-    .wave-one, .wave-three {
+    .wave-one,
+    .wave-three {
         background-size: 50% 50px;
     }
 
@@ -325,7 +329,7 @@
         background-size: 50% 70px;
     }
     .classic-saas-image {
-        .bg-saas-shape { 
+        .bg-saas-shape {
             img {
                 max-width: 550px;
             }
@@ -334,10 +338,15 @@
 }
 
 @media (max-width: 767px) {
-    .bg-home, .bg-half-170, .bg-half-260, .main-slider .slides .bg-slider, .bg-marketing, .swiper-slider-hero .swiper-container .swiper-slide {        
+    .bg-home,
+    .bg-half-170,
+    .bg-half-260,
+    .main-slider .slides .bg-slider,
+    .bg-marketing,
+    .swiper-slider-hero .swiper-container .swiper-slide {
         padding: 150px 0;
         height: auto;
-    } 
+    }
     .agency-wrapper {
         &:before {
             right: 0;
@@ -349,9 +358,9 @@
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
         }
     }
-    
+
     .classic-saas-image {
-        .bg-saas-shape { 
+        .bg-saas-shape {
             img {
                 max-width: 100%;
                 height: auto;
@@ -362,7 +371,7 @@
                 width: 30rem;
                 height: 30rem;
                 border-radius: 10rem;
-            } 
+            }
         }
     }
 }

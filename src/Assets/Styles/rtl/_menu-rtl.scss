@@ -5,7 +5,7 @@
     .logo {
         float: right;
     }
-    .has-submenu{
+    .has-submenu {
         .submenu {
             .submenu-arrow {
                 border-width: 2px 0px 0px 2px;
@@ -41,7 +41,7 @@
                 > .submenu {
                     > .has-submenu {
                         > .submenu {
-                            &::before{
+                            &::before {
                                 margin-right: -15px;
                                 margin-left: 0;
                                 transform: rotate(-45deg);
@@ -140,7 +140,7 @@
                 }
             }
         }
-        .has-submenu{
+        .has-submenu {
             .submenu {
                 .submenu-arrow {
                     left: 20px;
@@ -173,7 +173,7 @@
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
     #topnav {
         .navbar-toggle {
             .lines {

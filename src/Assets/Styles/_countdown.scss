@@ -2,11 +2,14 @@
 // countdown.scss
 //
 //countdown
-.coming-soon, .maintenance, .error-page {
+.coming-soon,
+.maintenance,
+.error-page {
     font-size: 40px;
     letter-spacing: 1px;
 }
-#countdown, #eventdown {
+#countdown,
+#eventdown {
     .count-down {
         display: inline-block;
         margin: 30px 10px;
@@ -60,8 +63,10 @@
         }
     }
 }
-@media (min-width: 200px) and (max-width: 767px){
-    .coming-soon, .maintenance, .error-page {
+@media (min-width: 200px) and (max-width: 767px) {
+    .coming-soon,
+    .maintenance,
+    .error-page {
         font-size: 32px;
     }
     #eventdown {

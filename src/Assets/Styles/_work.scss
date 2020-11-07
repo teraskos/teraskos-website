@@ -30,7 +30,7 @@
         img,
         .overlay-work,
         .content,
-        .client, 
+        .client,
         .read_more,
         .icons,
         .icons .work-icon {
@@ -38,7 +38,7 @@
         }
         .overlay-work,
         .content,
-        .client, 
+        .client,
         .read_more,
         .icons {
             position: absolute;
@@ -48,7 +48,7 @@
             right: 0;
             bottom: 0;
             left: 0;
-            opacity: 0; 
+            opacity: 0;
             z-index: 1;
         }
         .content {
@@ -60,7 +60,7 @@
         .client {
             opacity: 0;
         }
-        .client, 
+        .client,
         .read_more {
             z-index: 1;
             right: 5%;
@@ -107,7 +107,9 @@
     }
     &.work-grid {
         transition: all 0.5s ease;
-        img, .content, .content .title {
+        img,
+        .content,
+        .content .title {
             transition: all 0.5s ease;
         }
         .content {
@@ -118,7 +120,7 @@
             transform: translateY(150px);
             overflow: hidden;
         }
-        &:hover { 
+        &:hover {
             box-shadow: $shadow;
             img {
                 transform: translateY(-40px);
@@ -160,7 +162,7 @@
         right: 0;
         bottom: 0;
         left: 0;
-        opacity: 0; 
+        opacity: 0;
         transition: all 0.5s ease;
     }
     &:hover {
@@ -218,7 +220,8 @@
             }
         }
     }
-    .collection, .preview {
+    .collection,
+    .preview {
         position: absolute;
         opacity: 0;
         z-index: 1;
@@ -242,7 +245,8 @@
     &:hover {
         box-shadow: $shadow;
         transform: translateY(-10px);
-        .collection, .preview {
+        .collection,
+        .preview {
             opacity: 1;
         }
     }
@@ -259,7 +263,7 @@
     li {
         a {
             font-size: 13px;
-            padding: 0px 15px; 
+            padding: 0px 15px;
             margin: 5px 3px;
             font-weight: 700;
             letter-spacing: 0.8px;
@@ -274,19 +278,18 @@
         }
     }
 }
-.spacing{
+.spacing {
     padding-left: 7px;
     padding-right: 7px;
 }
-
 
 //Shopping
 .shop-list {
     .shop-image {
         .overlay-work,
-        .shop-icons { 
+        .shop-icons {
             position: absolute;
-            opacity: 0; 
+            opacity: 0;
             transition: all 0.5s ease;
         }
         .overlay-work {
@@ -332,7 +335,6 @@
     }
 }
 
-
 //Timeline
 .main-icon {
     border: 2px solid $gray-200;
@@ -357,7 +359,8 @@
         background-color: $gray-200 !important;
     }
     .timeline-item {
-        .date-label-left, .duration-right {
+        .date-label-left,
+        .duration-right {
             margin-right: 15px;
             &:after {
                 content: "";
@@ -371,17 +374,17 @@
                 transform: rotate(45deg);
             }
         }
-        .date-label-left {            
+        .date-label-left {
             float: right;
             margin-right: 15px;
-            &:after {                
+            &:after {
                 right: -37px;
             }
-        }        
+        }
         .duration-right {
             float: left;
             margin-left: 15px;
-            &:after {                
+            &:after {
                 left: -37px;
             }
         }
@@ -400,7 +403,7 @@
 
 @media (min-width: 768px) {
     .main-icon {
-        margin: 0 auto;        
+        margin: 0 auto;
     }
 }
 

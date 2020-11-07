@@ -1,33 +1,33 @@
 .header-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
-    url('./../../../../Assets/Images/carousel-teraskos.jpg');
-  background-size: cover;
-  height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+        url("./../../../../Assets/Images/carousel-teraskos.jpg");
+    background-size: cover;
+    height: 100vh;
 
-  .title {
-    img {
-      @media (min-width: 768px) {
-        width: 12.5%;
-      }
+    .title {
+        img {
+            @media (min-width: 768px) {
+                width: 12.5%;
+            }
 
-      @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-        width: 17.5%;
-      }
+            @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+                width: 17.5%;
+            }
 
-      @media (min-width: 481px) and (max-width: 767px) {
-        width: 25%;
-      }
+            @media (min-width: 481px) and (max-width: 767px) {
+                width: 25%;
+            }
 
-      @media (min-width: 320px) and (max-width: 480px) {
-        width: 30%;
-      }
-      margin: 1em;
+            @media (min-width: 320px) and (max-width: 480px) {
+                width: 30%;
+            }
+            margin: 1em;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.7rem;
+            font-weight: bold;
+        }
     }
-
-    h1 {
-      margin: 0;
-      font-size: 2.7rem;
-      font-weight: bold;
-    }
-  }
 }

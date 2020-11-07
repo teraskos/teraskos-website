@@ -31,7 +31,7 @@
                 transition: all 0.5s ease;
             }
         }
-        .owl-dot.active span, 
+        .owl-dot.active span,
         &.clickable .owl-dot:hover span {
             background: $primary !important;
             transform: rotate(45deg);

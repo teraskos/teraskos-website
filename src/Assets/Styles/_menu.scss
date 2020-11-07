@@ -9,7 +9,7 @@
     z-index: 1030;
     background-color: transparent;
     border: 0;
-    transition: all .5s ease;
+    transition: all 0.5s ease;
     .logo {
         float: left;
         color: $dark !important;
@@ -26,12 +26,12 @@
                 color: $white;
             }
             .submenu {
-                li.active > a{
+                li.active > a {
                     color: $primary !important;
                 }
             }
             &.active {
-                .menu-arrow{
+                .menu-arrow {
                     border-color: $primary;
                 }
             }
@@ -80,13 +80,13 @@
             background-color: $dark;
             display: block;
             margin-bottom: 5px;
-            transition: transform .5s ease;   
+            transition: transform 0.5s ease;
             &:last-child {
                 margin-bottom: 0;
             }
         }
     }
-    
+
     //Buy button
     .buy-button {
         float: right;
@@ -121,14 +121,14 @@
         }
     }
     .navbar-toggle {
-        &:hover, 
+        &:hover,
         &:focus,
-        .navigation-menu > li > a:hover, 
+        .navigation-menu > li > a:hover,
         &:focus {
             background-color: transparent;
         }
     }
-  
+
     .navigation-menu {
         list-style: none;
         margin: 0;
@@ -139,7 +139,7 @@
             position: relative;
             margin: 0 10px;
             &:hover > a,
-            &.active > a{
+            &.active > a {
                 color: $primary !important;
             }
             > a {
@@ -151,13 +151,13 @@
                 letter-spacing: 1px;
                 line-height: 24px;
                 text-transform: uppercase;
-                transition: all 0.5s;    
+                transition: all 0.5s;
                 font-family: $font-family-base;
                 padding-left: 15px;
                 padding-right: 15px;
                 &:hover,
-                &:active{
-                    color: $primary;    
+                &:active {
+                    color: $primary;
                 }
             }
         }
@@ -184,7 +184,7 @@
     .menu-extras {
         float: right;
     }
-    
+
     &.scroll {
         background-color: $white;
         border: none;
@@ -194,41 +194,42 @@
                 > a {
                     color: $dark;
                 }
-                
+
                 > .menu-arrow {
                     border-color: $dark;
                 }
-                &:hover, &.active {
+                &:hover,
+                &.active {
                     > a {
                         color: $primary;
                     }
                     > .menu-arrow {
                         border-color: $primary;
                     }
-                } 
-            } 
+                }
+            }
         }
     }
-    
-    &.defaultscroll{
+
+    &.defaultscroll {
         &.dark-menubar {
             .logo {
                 line-height: 70px;
             }
         }
         &.scroll {
-            .logo{
+            .logo {
                 line-height: 62px;
             }
             &.dark-menubar {
-                .logo{
+                .logo {
                     line-height: 62px;
                 }
             }
         }
     }
 
-    &.nav-sticky{
+    &.nav-sticky {
         background: $white;
         box-shadow: $shadow;
         .navigation-menu {
@@ -240,9 +241,9 @@
                     &.active {
                         > a {
                             color: $primary !important;
-                        }      
+                        }
                     }
-                    &:hover, 
+                    &:hover,
                     &.active {
                         > .menu-arrow {
                             border-color: $primary !important;
@@ -251,15 +252,15 @@
                             color: $primary !important;
                         }
                     }
-                } 
+                }
                 .has-submenu {
                     .menu-arrow {
-                        border-color: $dark; 
+                        border-color: $dark;
                     }
                 }
             }
         }
-        
+
         .buy-button {
             .login-btn-primary {
                 display: inline-block;
@@ -294,14 +295,15 @@
                 > .submenu {
                     > .has-submenu {
                         > .submenu {
-                            &::before{
+                            &::before {
                                 top: 20px;
                                 margin-left: -35px;
                                 box-shadow: 1px 1px 0px 0px rgba($dark, 0.15);
-                                border-color: transparent $white $white transparent;
+                                border-color: transparent $white $white
+                                    transparent;
                             }
                         }
-                    } 
+                    }
                 }
                 &:hover {
                     .menu-arrow {
@@ -313,7 +315,7 @@
                         top: 30px;
                     }
                 }
-            } 
+            }
             > li {
                 .submenu {
                     position: absolute;
@@ -326,7 +328,7 @@
                     visibility: hidden;
                     opacity: 0;
                     margin-top: 10px;
-                    transition: all .2s ease;
+                    transition: all 0.2s ease;
                     border-radius: 6px;
                     background-color: $white;
                     box-shadow: $shadow;
@@ -401,10 +403,10 @@
                     }
                 }
                 &:hover > a,
-                &.active > a{
+                &.active > a {
                     color: $primary !important;
                 }
-                
+
                 &.last-elements {
                     .submenu {
                         left: auto;
@@ -426,12 +428,12 @@
                 > li {
                     > a {
                         color: rgba($white, 0.5);
-                    }   
+                    }
                     &.active {
                         > a {
                             color: $white !important;
-                        }      
-                    }           
+                        }
+                    }
                     &:hover {
                         > .menu-arrow {
                             border-color: $white !important;
@@ -440,13 +442,13 @@
                             color: $white !important;
                         }
                     }
-                } 
+                }
                 .has-submenu {
                     .menu-arrow {
                         border-color: rgba($white, 0.5);
                     }
                     &.active {
-                        .menu-arrow{
+                        .menu-arrow {
                             border-color: $white !important;
                         }
                     }
@@ -472,16 +474,16 @@
                     }
                 }
             }
-        }  
+        }
         .buy-button {
             padding-left: 15px;
             margin-left: 15px;
-        }      
+        }
         .navbar-toggle {
             display: none;
         }
         #navigation {
-            display: block!important;
+            display: block !important;
         }
         &.scroll {
             top: 0;
@@ -506,7 +508,7 @@
         }
     }
 }
-  
+
 @media (max-width: 991px) {
     #topnav {
         background-color: $white;
@@ -524,7 +526,7 @@
             width: auto;
         }
 
-        #navigation{
+        #navigation {
             max-height: 400px;
         }
         .navigation-menu {
@@ -610,7 +612,7 @@
         }
     }
     #topnav {
-        .has-submenu{
+        .has-submenu {
             .submenu {
                 .submenu-arrow {
                     transform: rotate(45deg);
@@ -636,8 +638,8 @@
         height: auto;
         padding-bottom: 0;
         overflow: auto;
-        border-top: 1px solid darken($light,2%);
-        border-bottom: 1px solid darken($light,2%);
+        border-top: 1px solid darken($light, 2%);
+        border-bottom: 1px solid darken($light, 2%);
         background-color: $white;
         &.open {
             display: block;
@@ -664,15 +666,15 @@
 @media (min-width: 768px) {
     #topnav {
         .navigation-menu {
-            > li{
-                &.has-submenu{
+            > li {
+                &.has-submenu {
                     &:hover {
                         > .submenu {
                             visibility: visible;
                             opacity: 1;
                             margin-top: 0;
-                            > li{
-                                &.has-submenu{
+                            > li {
+                                &.has-submenu {
                                     &:hover {
                                         > .submenu {
                                             visibility: visible;
@@ -694,7 +696,7 @@
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
     #topnav {
         .buy-button {
             display: none;
