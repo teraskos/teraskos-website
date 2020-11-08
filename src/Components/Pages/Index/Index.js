@@ -3,7 +3,6 @@ import Header from "./Components/Header";
 
 import SEO_SVG from "./../../../Assets/Images/illustrator/SEO_SVG.svg";
 import Mobile_notification_SVG from "./../../../Assets/Images/illustrator/Mobile_notification_SVG.svg";
-import Amazon from "./../../../Assets/Images/client/amazon.svg";
 import Google from "./../../../Assets/Images/client/google.svg";
 import Lenovo from "./../../../Assets/Images/client/lenovo.svg";
 import Paypal from "./../../../Assets/Images/client/paypal.svg";
@@ -68,33 +67,39 @@ function Index() {
                         <div class="col-lg-7 col-md-6 mt-4 pt-2">
                             <div class="section-title ml-lg-5">
                                 <h4 class="title mb-4">
-                                Sedang Mencari Kos-Kosan? <br /> <span class="text-primary">Teraskos</span> Siap Mencarikan untuk Anda!
+                                    Sedang Mencari Kos-Kosan? <br />{" "}
+                                    <span class="text-primary">Teraskos</span>{" "}
+                                    Siap Mencarikan untuk Anda!
                                 </h4>
                                 <p class="text-muted">
-                                    Teraskos akan membantu Anda untuk mencari dan 
-                                    menikmati layanan kos dengan harga yang terjangkau. 
-                                    Selain itu, masih banyak keuntungan yang 
-                                    akan anda dapatkan jika bergabung dengan 
-                                    Teraskos! Berikut beberapa keuntungan lainnya:
+                                    Teraskos akan membantu Anda untuk mencari
+                                    dan menikmati layanan kos dengan harga yang
+                                    terjangkau. Selain itu, masih banyak
+                                    keuntungan yang akan anda dapatkan jika
+                                    bergabung dengan Teraskos! Berikut beberapa
+                                    keuntungan lainnya:
                                 </p>
                                 <ul class="list-unstyled text-muted">
                                     <li class="mb-0">
                                         <span class="text-primary h5 mr-2">
                                             <i class="uim uim-check-circle"></i>
                                         </span>
-                                        Kualitas yang hampir setara dengan pelayanan hotel
+                                        Kualitas yang hampir setara dengan
+                                        pelayanan hotel
                                     </li>
                                     <li class="mb-0">
                                         <span class="text-primary h5 mr-2">
                                             <i class="uim uim-check-circle"></i>
                                         </span>
-                                        Jaminan ngekos dengan nyaman dan sesuai budget
+                                        Jaminan ngekos dengan nyaman dan sesuai
+                                        budget
                                     </li>
                                     <li class="mb-0">
                                         <span class="text-primary h5 mr-2">
                                             <i class="uim uim-check-circle"></i>
                                         </span>
-                                        Membantu menyelesaikan komplain terhadap pemilik kos
+                                        Membantu menyelesaikan komplain terhadap
+                                        pemilik kos
                                     </li>
                                 </ul>
                                 <div class="mt-4">
@@ -143,13 +148,15 @@ function Index() {
                                         <span class="text-primary h5 mr-2">
                                             <i class="uim uim-check-circle"></i>
                                         </span>
-                                        Memudahkan pemilik kos melayani penghuni kos
+                                        Memudahkan pemilik kos melayani penghuni
+                                        kos
                                     </li>
                                     <li class="mb-0">
                                         <span class="text-primary h5 mr-2">
                                             <i class="uim uim-check-circle"></i>
                                         </span>
-                                        Meningkatkan profit dan kualitas layanan kos
+                                        Meningkatkan profit dan kualitas layanan
+                                        kos
                                     </li>
                                 </ul>
                                 <div class="mt-4">
@@ -246,8 +253,9 @@ function Index() {
                                             alt=""
                                         /> */}
                                         <p class="text-muted mt-4">
-                                            " Puas dengan fasilitasnya, harganya juga murah, 
-                                            serta tempatnya bersih. Cocok buat anak muda. "
+                                            " Puas dengan fasilitasnya, harganya
+                                            juga murah, serta tempatnya bersih.
+                                            Cocok buat anak muda. "
                                         </p>
                                         <h6 class="text-primary">
                                             - Januarti Pratiwi
