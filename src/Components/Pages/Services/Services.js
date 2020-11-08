@@ -135,7 +135,7 @@ function Services() {
 
                         <div class="col-lg-6 col-md-7 mt-5 mt-sm-0">
                             <div class="section-title">
-                                <h1 class="title mb-3">Terastalk</h1>
+                                <h1 class="title mb-3">TerasTalks</h1>
                                 <p class="para-desc text-muted">
                                     Kami memiliki misi: Menciptakan dampak
                                     sosial dalam mengoperasikan Teraskos. Kami

@@ -13,7 +13,7 @@ function Header() {
                 <div class="title text-center text-white">
                     <img src={logo} alt="Logo Teraskos" />
                     <h1>
-                        Temukan Segala Kebutuhan Ngekosmu dengan Mudah dan
+                        Temukan Segala Kebutuhan Ngekosmu <br /> Dengan Mudah dan
                         Murah!
                     </h1>
                 </div>
