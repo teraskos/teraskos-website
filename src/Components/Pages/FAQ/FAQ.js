@@ -58,8 +58,8 @@ function FAQ() {
                                         <a
                                             data-toggle="collapse"
                                             href="#collapseone"
-                                            class="faq position-relative"
-                                            aria-expanded="true"
+                                            class="faq position-relative collapsed"
+                                            aria-expanded="false"
                                             aria-controls="collapseone"
                                         >
                                             <div
@@ -79,7 +79,7 @@ function FAQ() {
                                         </a>
                                         <div
                                             id="collapseone"
-                                            class="collapse show"
+                                            class="collapse"
                                             aria-labelledby="headingfifone"
                                             data-parent="#accordionExampleone"
                                         >
@@ -341,8 +341,8 @@ function FAQ() {
                                         <a
                                             data-toggle="collapse"
                                             href="#collapsefive"
-                                            class="faq position-relative"
-                                            aria-expanded="true"
+                                            class="faq position-relative collapsed"
+                                            aria-expanded="false"
                                             aria-controls="collapsefive"
                                         >
                                             <div
@@ -361,7 +361,7 @@ function FAQ() {
                                         </a>
                                         <div
                                             id="collapsefive"
-                                            class="collapse show"
+                                            class="collapse"
                                             aria-labelledby="headingfive"
                                             data-parent="#accordionExampletwo"
                                         >
@@ -625,8 +625,8 @@ function FAQ() {
                                         <a
                                             data-toggle="collapse"
                                             href="#collapseten"
-                                            class="faq position-relative"
-                                            aria-expanded="true"
+                                            class="faq position-relative collapsed"
+                                            aria-expanded="false"
                                             aria-controls="collapseten"
                                         >
                                             <div
@@ -635,27 +635,34 @@ function FAQ() {
                                             >
                                                 <h6 class="title mb-0">
                                                     {" "}
-                                                    How our{" "}
+                                                    Apa sih itu{" "}
                                                     <span class="text-primary">
-                                                        Landrick
+                                                        Terastalks
                                                     </span>{" "}
-                                                    work ?{" "}
+                                                    ?{" "}
                                                 </h6>
                                             </div>
                                         </a>
                                         <div
                                             id="collapseten"
-                                            class="collapse show"
+                                            class="collapse"
                                             aria-labelledby="headingten"
                                             data-parent="#accordionExamplethree"
                                         >
                                             <div class="card-body px-2 py-4">
                                                 <p class="text-muted mb-0 faq-ans">
-                                                    There are many variations of
-                                                    passages of Lorem Ipsum
-                                                    available, but the majority
-                                                    have suffered alteration in
-                                                    some form.
+                                                TerasTalks adalah salah satu layanan 
+                                                non-profit kami dimana kami menghadirkan 
+                                                para influencer di indonesia untuk berbagi 
+                                                kisah dan pengalaman mereka sejauh ini. 
+                                                Tujuannya agar anak-anak kos di seluruh 
+                                                Indonesia bisa menentukan tujuan masa 
+                                                depannya dan kelak bisa menjadi anak bangsa 
+                                                yang hebat dan membawa harum nama bangsa Indonesia 
+                                                di kancah internasional. Oleh karena itu, 
+                                                TerasTalks akan hadir setiap bulan dalam 
+                                                konsep webinar dan mungkin saja kedepannya akan 
+                                                kami buat juga versi pertemuan offlinenya di kotamu.
                                                 </p>
                                             </div>
                                         </div>
@@ -675,8 +682,12 @@ function FAQ() {
                                             >
                                                 <h6 class="title mb-0">
                                                     {" "}
-                                                    What is the main process
-                                                    open account ?{" "}
+                                                    Siapa sih yang bisa bergabung jadi peserta 
+                                                    {" "}
+                                                    <span class="text-primary">
+                                                        Terastalks
+                                                    </span>{" "}
+                                                    ?{" "}
                                                 </h6>
                                             </div>
                                         </a>
@@ -688,11 +699,18 @@ function FAQ() {
                                         >
                                             <div class="card-body px-2 py-4">
                                                 <p class="text-muted mb-0 faq-ans">
-                                                    There are many variations of
-                                                    passages of Lorem Ipsum
-                                                    available, but the majority
-                                                    have suffered alteration in
-                                                    some form.
+                                                TerasTalks kami tujukan secara 
+                                                khusus bagi kamu anak-anak kos 
+                                                seluruh Indonesia, pekerja kantoran, 
+                                                ibu rumah tangga, travelers, pengusaha, 
+                                                para pemilik kos dan juga pemilik apartemen 
+                                                yang merasa dirinya membutuhkan pencerahan 
+                                                untuk merencanakan masa depan yang lebih baik. 
+                                                Karena para influencer yang kami hadirkan 
+                                                tentunya sangat relevan dengan kamu yang 
+                                                saat ini sedang menghadapi masalah quarter 
+                                                life crisis ataupun masalah-masalah 
+                                                seputar kehidupan lainnya.
                                                 </p>
                                             </div>
                                         </div>
@@ -712,8 +730,12 @@ function FAQ() {
                                             >
                                                 <h6 class="title mb-0">
                                                     {" "}
-                                                    How to make unlimited data
-                                                    entry ?{" "}
+                                                    Siapa sih para influencer yang akan mengisi acara 
+                                                    {" "}
+                                                    <span class="text-primary">
+                                                        Terastalks
+                                                    </span>{" "}
+                                                    ?{" "}
                                                 </h6>
                                             </div>
                                         </a>
@@ -725,11 +747,18 @@ function FAQ() {
                                         >
                                             <div class="card-body px-2 py-4">
                                                 <p class="text-muted mb-0 faq-ans">
-                                                    There are many variations of
-                                                    passages of Lorem Ipsum
-                                                    available, but the majority
-                                                    have suffered alteration in
-                                                    some form.
+                                                Sebelum kami mengumumkan acara TerasTalks, 
+                                                kami akan bertanya terlebih dahulu kepada 
+                                                para member WhatsApp Grup TerasTalks. 
+                                                Dengan menanyakan pendapat mereka, 
+                                                tentu kami akan mendapatkan gambaran 
+                                                tentang topik yang para calon peserta 
+                                                butuhkan nantinya. Baru deh, setelah 
+                                                mengetahui masalah dan masukan topik 
+                                                dari peserta kemudian kami akan berusaha 
+                                                untuk menghubungi para influencer yang 
+                                                relevan dan bisa mencerahkan kamu sesuai 
+                                                topik yang telah ditentukan tadi.
                                                 </p>
                                             </div>
                                         </div>
@@ -749,12 +778,10 @@ function FAQ() {
                                             >
                                                 <h6 class="title mb-0">
                                                     {" "}
-                                                    Is{" "}
-                                                    <span class="text-primary">
-                                                        Landrick
-                                                    </span>{" "}
-                                                    safer to use with my account
-                                                    ?{" "}
+                                                    Jika saya seorang influencer 
+                                                    dan ingin berbagi tentang pengalaman 
+                                                    saya apakah bisa
+                                                    {" "}?{" "}
                                                 </h6>
                                             </div>
                                         </a>
@@ -766,11 +793,21 @@ function FAQ() {
                                         >
                                             <div class="card-body px-2 py-4">
                                                 <p class="text-muted mb-0 faq-ans">
-                                                    There are many variations of
-                                                    passages of Lorem Ipsum
-                                                    available, but the majority
-                                                    have suffered alteration in
-                                                    some form.
+                                                    Wah ini pertanyaan yang kami tunggu-tunggu. 
+                                                    Tentu bisa dong kak! Kami sangat mengapresiasi 
+                                                    jika kamu ingin menjadi pembicara di TerasTalks kami. 
+                                                    Tapi sebelum itu, kami akan baca dulu profile kakak ya. 
+                                                    Lalu kemudian kami akan cocokkan dengan kebutuhan dan 
+                                                    permintaan topik dari para peserta TerasTalks yang 
+                                                    ada di grup komunitas kami. Jika memang profile kakak 
+                                                    dirasa layak untuk dihadirkan di acara TerasTalks. 
+                                                    So, tinggal tunggu kabar saja kak dari kami tentang 
+                                                    kepastian waktu dan konsep acaranya. Nah bagi kamu 
+                                                    yang ingin mendaftar sebagai pembicara TerasTalks 
+                                                    silakan hubungi kami di official WhatsApp number dan 
+                                                    Line Official kami yang tertera di Contact Us 
+                                                    website kami ini ya kak.
+
                                                 </p>
                                             </div>
                                         </div>
@@ -790,8 +827,13 @@ function FAQ() {
                                             >
                                                 <h6 class="title mb-0">
                                                     {" "}
-                                                    How can i contact your
-                                                    technical team ?{" "}
+                                                    Bagaimana sih tata tertib dan 
+                                                    peraturan ketika gabung 
+                                                    {" "}
+                                                    <span class="text-primary">
+                                                        Terastalks
+                                                    </span>{" "}
+                                                    ?{" "}
                                                 </h6>
                                             </div>
                                         </a>
@@ -803,68 +845,89 @@ function FAQ() {
                                         >
                                             <div class="card-body px-2 py-4">
                                                 <p class="text-muted mb-0 faq-ans">
-                                                    There are many variations of
-                                                    passages of Lorem Ipsum
-                                                    available, but the majority
-                                                    have suffered alteration in
-                                                    some form.
+                                                Untuk memastikan bahwa acara TerasTalks 
+                                                dapat berjalan secara kondusif, 
+                                                ada beberapa ketentuan yang kakak 
+                                                harus ikuti sebagai berikut: <br />
+                                                1. Link akan dibagikan 15 menit 
+                                                sebelum acara dimulai dan peserta 
+                                                dipersilakan memasuki meeting room 
+                                                sesuai dengan rundown yang telah diumumkan. <br />
+                                                2. Meeting akan menggunakan aplikasi Zoom <br />
+                                                3. Selama diskusi berlangsung, microphone 
+                                                berada dalam keadaan MUTE. <br />
+                                                4. Pertanyaan selama sesi tanya jawab 
+                                                dapat ditanyakan secara langsung, atau 
+                                                menuliskannya pada link yang diberikan 
+                                                didalam grup WA. <br />
+                                                5. Peserta yang ingin bertanya secara 
+                                                langsung dipersilakan untuk klik Raise Hand. <br />
+                                                6. E-certificate akan dibagikan setelah 
+                                                peserta mengisi form feedback TerasTalks 
+                                                yang disebar di dalam grup WA. <br />
+                                                7. Di dalam grup WA TerasTalks, peserta 
+                                                tidak diperkenankan untuk berdagang dan 
+                                                melakukan hal-hal yang berkaitan dengan SARA.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-
-                            <div class="section-title mt-5" id="support">
-                                <h4>Support Questions</h4>
-                            </div>
-
-                            <div class="faq-content mt-4 pt-3">
-                                <div
-                                    class="accordion"
-                                    id="accordionExamplefour"
-                                >
-                                    <div class="card border-0 rounded mb-2">
+    
+                                    <div class="card border-0 rounded">
                                         <a
                                             data-toggle="collapse"
-                                            href="#collapsefifthenn"
-                                            class="faq position-relative"
-                                            aria-expanded="true"
-                                            aria-controls="collapsefifthenn"
+                                            href="#collapsefiveteen"
+                                            class="faq position-relative collapsed"
+                                            aria-expanded="false"
+                                            aria-controls="collapsefiveteen"
                                         >
                                             <div
                                                 class="card-header border-0 bg-light p-3 pr-5"
-                                                id="headingfiftheen"
+                                                id="headingfiveteen"
                                             >
                                                 <h6 class="title mb-0">
                                                     {" "}
-                                                    How our{" "}
+                                                    Apakah peserta bisa 
+                                                    mengajukan saran 
+                                                    topik untuk{" "}
                                                     <span class="text-primary">
-                                                        Landrick
+                                                        TerasTalks
                                                     </span>{" "}
-                                                    work ?{" "}
+                                                    berikutnya
+                                                    {" "}?{" "}
                                                 </h6>
                                             </div>
                                         </a>
                                         <div
-                                            id="collapsefifthenn"
-                                            class="collapse show"
-                                            aria-labelledby="headingfiftheen"
-                                            data-parent="#accordionExamplefour"
+                                            id="collapsefiveteen"
+                                            class="collapse"
+                                            aria-labelledby="headingfiveteen"
+                                            data-parent="#accordionExamplethree"
                                         >
                                             <div class="card-body px-2 py-4">
                                                 <p class="text-muted mb-0 faq-ans">
-                                                    There are many variations of
-                                                    passages of Lorem Ipsum
-                                                    available, but the majority
-                                                    have suffered alteration in
-                                                    some form.
+                                                    Tentu bisa banget dong kak. 
+                                                    Tapi syaratnya kakak harus gabung 
+                                                    dulu di TerasTalks sebelumnya ya. 
+                                                    Nanti kami akan menyebarkan 
+                                                    Googleform untuk mendapatkan 
+                                                    feedback dari para peserta TerasTalks 
+                                                    dan juga menanyakan mereka tentang 
+                                                    usulan topik untuk TerasTalks berikutnya. 
+                                                    Oleh karena itu, nanti ketika kakak gabung 
+                                                    di Grup WA komunitas TerasTalks jangan 
+                                                    lupa untuk aktif bertanya atau meramaikan 
+                                                    grup ya. Siapa tahu kakak bisa menemukan 
+                                                    jodoh juga kan di Grup WA tersebut. 
+                                                    Teraskos pun dapat pahala pastinya 
+                                                    secara tidak langsung. hehehe
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="card border-0 rounded mb-2">
+                                    
+                                    <div class="card border-0 rounded">
                                         <a
                                             data-toggle="collapse"
                                             href="#collapsesixteen"
@@ -878,8 +941,20 @@ function FAQ() {
                                             >
                                                 <h6 class="title mb-0">
                                                     {" "}
-                                                    What is the main process
-                                                    open account ?{" "}
+                                                    Jika saya keluar 
+                                                    dari Grup WA 
+                                                    {" "}
+                                                    <span class="text-primary">
+                                                        TerasTalks
+                                                    </span>{" "}
+                                                    sebelumnya, 
+                                                    apakah saya masih bisa gabung 
+                                                    {" "}
+                                                    <span class="text-primary">
+                                                        TerasTalks
+                                                    </span>{" "} 
+                                                    berikutnya
+                                                    {" "}?{" "}
                                                 </h6>
                                             </div>
                                         </a>
@@ -887,21 +962,31 @@ function FAQ() {
                                             id="collapsesixteen"
                                             class="collapse"
                                             aria-labelledby="headingsixteen"
-                                            data-parent="#accordionExamplefour"
+                                            data-parent="#accordionExamplethree"
                                         >
                                             <div class="card-body px-2 py-4">
                                                 <p class="text-muted mb-0 faq-ans">
-                                                    There are many variations of
-                                                    passages of Lorem Ipsum
-                                                    available, but the majority
-                                                    have suffered alteration in
-                                                    some form.
+                                                    Tentu bisa kok kak. 
+                                                    Jika kakak keluar dari grup 
+                                                    WA sebelumnya, tidak masalah kok. 
+                                                    Karena kami paham itu adalah 
+                                                    hak kakak ketika menggunakan sosial media. 
+                                                    Jadi, jika kakak tertarik untuk join 
+                                                    TerasTalks berikutnya, maka kakak harus bersedia 
+                                                    join di Grup WA TerasTalks lagi ya. 
+                                                    Karena semua penjelasan teknis TerasTalks
+                                                    akan diumumkan di grup tersebut. 
+                                                    Makanya, daripada ribet keluar masuk grup, 
+                                                    mending stay aja di grup WA TerasTalks. 
+                                                    Kami akan memastikan grup WA nya selalu 
+                                                    kondusif dan bebas dari jualan, SARA, 
+                                                    dan hal-hal lain yang merugikan kakak kok.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="card border-0 rounded mb-2">
+                                    {/* <div class="card border-0 rounded mb-2">
                                         <a
                                             data-toggle="collapse"
                                             href="#collapseseventeen"
@@ -1014,14 +1099,14 @@ function FAQ() {
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="container mt-100 mt-60">
+                {/* <div class="container mt-100 mt-60">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-12">
                             <div class="media align-items-center shadow rounded p-4 features">
@@ -1083,7 +1168,7 @@ function FAQ() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
         </Fragment>
     );
